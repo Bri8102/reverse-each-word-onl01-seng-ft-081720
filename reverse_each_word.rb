@@ -1,5 +1,7 @@
 def reverse_each_word(string)
-  string.reverse
+  string.each do |sent|
+    puts sent.reverse.join
+ end
 end
 
 def reverse_each_word(string)
