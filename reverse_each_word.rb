@@ -5,4 +5,3 @@ def reverse_each_word(string)
  end
     revrs_string.join(" ")
 end
-
